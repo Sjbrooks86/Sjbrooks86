@@ -1,0 +1,246 @@
+/*------------------------general section-----------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/*------------------------header/navbar section-------------------------------*/
+
+.navbar {
+    background-color: rgb(184, 184, 184);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#nav-logo {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand img {
+    transition: .5s;
+}
+
+.navbar-brand img:hover {
+    filter: opacity(50%);
+}
+
+.navbar-nav li a {
+    color: rgb(20, 40, 61) !important;
+    font-weight: 600;
+    text-align: left;
+    transition: .5s;
+}
+
+.navbar-nav li a:hover {
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+/*------------------------banner section-----------------------------------*/
+
+.jumbotron {
+    text-align: center;
+    background-color:rgb(20, 40, 61);
+    border-radius: 0;
+    color: rgb(232, 236, 174);
+    box-shadow: -3px 10px 10px rgb(66, 66, 66);
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+}
+
+
+/*------------------------about section-----------------------------------*/
+
+#about {
+    margin: 100px 0;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#about-me-div {
+    text-align: right;
+}
+
+#about-me-text {
+    font-weight: 200;
+    text-align: justify;
+}
+
+#signature-div {
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+#signature {
+    width: 150px;
+    height: 100px;
+}
+
+#profile-pic {
+    width: 400px;
+    height: 375px;
+    box-shadow: 10px 10px 10px;
+    rotate: 180;
+}
+
+.container1 {
+    padding-top: 80px;
+    width: 1560px;
+    padding-left: 200px;
+}
+
+.container2 {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.skills li {
+    padding-top: 50px;
+    padding-bottom: 500px;
+}
+
+.skill-list-title {
+    font-size: 45px;
+    padding: 10px 0 0 10px;
+}
+
+/*------------------------portfolio section-----------------------------------*/
+
+#portfolio {
+    background-color: rgb(20, 40, 61);
+    color: rgb(232, 236, 174);
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.portfolio-img-div {
+    text-align: center;
+}
+
+#portfolio img {
+    width: 250px;
+    height: 200px;
+}
+
+.projects {
+    margin-top: 50px;
+}
+
+.project-title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.project-cover {
+    transition: .3s;
+    margin-bottom: 60px;
+    
+}
+
+.project-cover:hover {
+    transform: scale(1.1);
+    position: relative;
+    z-index: 1; 
+}
+
+.project-caption span {
+    visibility: visible;
+}
+
+.project-caption:hover span {
+    visibility: hidden;
+}
+
+
+
+/*------------------------contact section-----------------------------------*/
+
+#contact-title {
+    padding-top: 50px;
+}
+
+#form {
+    font-size: 20px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 0;
+    border-bottom: 1px solid rgb(20, 40, 61);
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 5px;
+    border: 1px solid rgb(20, 40, 61);
+    border-radius: 5px;
+    width: 100%
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(20, 40, 61);
+    transition: .3s;
+}
+
+/*------------------------footer section-----------------------------------*/
+
+#footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media-icon {
+    font-size: 50px;
+    color:rgb(20,40,61);
+    padding: 10px;
+}
+
+.social-media-icon:hover {
+    color: rgb(184, 184, 184);
+    position: relative;
+    top: -5px;
+}
+
+#footer-logo {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    -webkit-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+
+#footer-logo:hover {
+    transform: rotate(360deg);
+}
